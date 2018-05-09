@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../character_create.css"/>
+</head>
+<body>
+    <main>
+        <button class="accordion">Section 1</button>
+        <div class="panel">
+          <p>Lorem ipsum...</p>
+        </div>
+        
+        <button class="accordion">Section 2</button>
+        <div class="panel">
+          <p>Lorem ipsum...</p>
+        </div>
+        
+        <button class="accordion">Section 3</button>
+        <div class="panel">
+          <p>Lorem ipsum...</p>
+        </div>
+        <!-- REPLACE ID'S ## PLACEHOLDERS -->
+        <div class="tab">
+            <button class="tablinks" onclick="tabs(event, 'Tab1')" id="defaultTab">Tab1</button>
+            <button class="tablinks" onclick="tabs(event, 'Tab2')">Tab2</button>
+            <button class="tablinks" onclick="tabs(event, 'Tab3')">Tab3</button>
+          </div>
+          
+          <!-- Tab content -->
+          <div id="Tab1" class="tabcontent">
+            <p>Lorem ipsum...</p>
+          </div>
+          
+          <div id="Tab2" class="tabcontent">
+            <p>Lorem ipsum...</p>
+          </div>
+          
+          <div id="Tab3" class="tabcontent">
+            <p>Lorem ipsum...</p>
+          </div>
+    </main>
+    <script src="../character_create.js"></script>
+</body>
+</html>
